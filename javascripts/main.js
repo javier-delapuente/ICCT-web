@@ -3,7 +3,7 @@ $(document).ready(function() {
   function reload() {
     $('.hidden').fadeOut();
     $('displayOutput').empty();
-    $.get( 'https://web-icct.17kgb9gf2oyv.eu-de.codeengine.appdomain.cloud/words', function(data) {
+    $.get( 'https://ibm-tec.eu-gb.mybluemix.net/words', function(data) {
       console.log(data);
       var rendered = '<table data-widget="datatable" data-scrollaxis="x" class="ibm-data-table" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><tbody><caption><p>A continuación puede consultar los próximos eventos.</p></caption><thead><tr><th scope="col">Fecha</th><th scope="col">Lugar</th><th scope="col">Evento</th><th scope="col">Mas info</th><th scope="col">Registrarse</th></tr></thead>';
       data.forEach(function(item) {
