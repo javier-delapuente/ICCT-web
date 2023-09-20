@@ -1,0 +1,8 @@
+---
+applications:
+- buildpack: php_buildpack
+  host: IBMClientCenterTechnologySolutions
+  name: IBMClientCenterTechnologySolutions
+  memory: 256M
+  stack: cflinuxfs2
+  

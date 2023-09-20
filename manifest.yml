@@ -1,0 +1,7 @@
+---
+applications:
+- name:    IBM-TEC
+  host:    IBM-TEC
+  memory:  256M
+  services:
+    - IBM-TEC
